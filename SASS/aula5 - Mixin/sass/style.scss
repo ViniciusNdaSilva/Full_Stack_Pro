@@ -1,0 +1,15 @@
+@mixin tetx-style($color, $font-size, $font-family){
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+.texts{
+  h1{ 
+    @include tetx-style(#ff4043, 34px, Arial);
+  }
+
+  p{
+    @include tetx-style(blue, 22px, sans-serif);
+  }
+}
