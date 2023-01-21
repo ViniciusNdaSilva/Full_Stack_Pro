@@ -7,6 +7,6 @@ let continuar = prompt("Você visitou alguma cidade? (Sim/Não)")
 while (continuar === "Sim") {
   let cidade = prompt("Qual é o nome da cidade visitada?")
   // cidades = cidades 
-  cidades += 
+  cidades += ""
 }
   
