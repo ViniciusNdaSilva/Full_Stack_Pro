@@ -1,0 +1,1 @@
+let velocidade = 0 
