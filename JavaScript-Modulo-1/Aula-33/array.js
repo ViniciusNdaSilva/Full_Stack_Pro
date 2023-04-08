@@ -4,8 +4,8 @@ console.log(arr)
 
 // Adicionar Elementos 
 // push 
-arr.push("Boromir")
-console.log(arr)
+ arr.push("Boromir")
+console.log(arr) 
 
 // unshift 
 arr.unshift("Boromir")
@@ -18,7 +18,7 @@ console.log(arr)
 
 // shift
 arr.shift("Boromir")
-console.log(arr)
+console.log(arr) 
 
 // includes: Verifica se um certo elemento está presente no array 
 const inclui = arr.includes("Gandalf")
@@ -41,3 +41,14 @@ const sociedade = hobbits.concat(outros, "Boromir")
 console.log(sociedade)
 console.log(hobbits)
 console.log(outros)
+
+// splice: Permite remover elementos em qualquer posição do array e substituir por novos
+const elementosRemovidos = sociedade.splice(indice, 1, "Gandalf, o Cinzento")
+console.log(elementosRemovidos)
+console.log(sociedade)
+
+// Usando o for para percorrer cada elemento do array
+for (let indice = 0; indice < sociedade.length; indice++) {
+  const elemento = sociedade[indice]
+  console.log(elemento + " se encontra na posição " + indice)
+}
