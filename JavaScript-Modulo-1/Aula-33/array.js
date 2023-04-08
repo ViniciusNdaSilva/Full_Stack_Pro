@@ -4,9 +4,11 @@ console.log(arr)
 
 // Adicionar Elementos 
 // push 
+
+
  arr.push("Boromir")
 console.log(arr) 
-
+/*    */
 // unshift 
 arr.unshift("Boromir")
 console.log(arr)
